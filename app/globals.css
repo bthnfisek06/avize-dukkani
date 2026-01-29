@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-cinzel: 'Cinzel', serif;
+  --font-playfair: 'Playfair Display', serif;
+}
+
+body {
+  font-family: var(--font-montserrat);
+  background-color: #050505;
+  color: white;
+}
+
+.font-serif {
+  font-family: var(--font-cinzel);
+}
+
+.font-playfair {
+  font-family: var(--font-playfair);
+}
+
+.zoom-img {
+  transition: transform 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.zoom-img:hover {
+  transform: scale(1.1);
+}
+
+/* Ana Başlıklar (Nuve Logosu ve Hero Yazısı) */
+.logo-style {
+  font-family: var(--font-cinzel);
+  letter-spacing: 0.5em;
+  font-weight: 400;
+  }
+
+/* Ürün İsimleri */
+.product-title {
+  font-family: var(--font-montserrat);
+  font-weight: 200;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+/* Fiyatlar ve Butonlar */
+.price-style {
+  font-family: var(--font-montserrat);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}

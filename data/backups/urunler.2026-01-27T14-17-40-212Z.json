@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1769465797532,
+    "ad": "Kristal Avize 10'lu Gold",
+    "fiyat": 22000,
+    "kategori": "AVİZELER",
+    "resimler": [
+      "https://ronisuaydinlatma.com/cdn/shop/files/IMG-1232.jpg?v=1729888394"
+    ],
+    "renk": "GOLD"
+  },
+  {
+    "id": 1769465879038,
+    "ad": "Kristal Aplik Duvara Asmalı Gold",
+    "fiyat": 1200,
+    "kategori": "APLİKLER",
+    "resimler": [
+      "https://productimages.hepsiburada.net/s/257/375-375/110000238811776.jpg"
+    ],
+    "renk": "GOLD"
+  },
+  {
+    "id": 1769467763153,
+    "ad": "Krom Eskitem Lüx Avize 18 li",
+    "fiyat": 39000,
+    "kategori": "AVİZELER",
+    "resimler": [
+      "https://static.ticimax.cloud/cdn-cgi/image/width=0",
+      "quality=0/58437/uploads/urunresimleri/buyuk/luxury-exclusive-modern-kristal-led-sa-a15-ed.jpg"
+    ],
+    "renk": "KROM"
+  },
+  {
+    "id": 1769470755940,
+    "ad": "kristal avize",
+    "fiyat": 7999,
+    "kategori": "AVİZELER",
+    "resimler": [
+      "."
+    ],
+    "renk": "KROM"
+  }
+]
