@@ -142,7 +142,7 @@ export default function ShopPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filtrelenmisUrunler.map((urun) => (
               <div key={urun.id} className="group bg-neutral-900 rounded-2xl overflow-hidden border border-neutral-800 hover:border-[#FF5A00]/50 transition-all duration-500">
-                <div className="aspect-[4/5] overflow-hidden cursor-pointer" onClick={() => setLightbox({src: urun.resim, alt: urun.ad})}>
+                <div className="aspect-[3/4] overflow-hidden cursor-pointer" onClick={() => setLightbox({src: urun.resim, alt: urun.ad})}>
                   <img src={urun.resim} alt={urun.ad} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-80 group-hover:opacity-100" />
                 </div>
                 <div className="p-6 text-center">
