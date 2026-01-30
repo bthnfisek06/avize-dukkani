@@ -18,7 +18,7 @@ type NuveSession = {
 
 const SESSION_KEY = "nuve_current_user";
 const CART_KEY = "nuve_cart";
-const WHATSAPP_PHONE = "905XXXXXXXXX";
+const WHATSAPP_PHONE = "905365853695";
 
 const fallbackShowcase = [
   "https://www.aydinlatmamekani.com/idea/dw/59/myassets/products/545/563-10.jpg?revision=1717070296",
