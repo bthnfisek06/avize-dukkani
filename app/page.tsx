@@ -130,10 +130,10 @@ export default function HomePage() {
         durum: "Yeni Bekliyor"
       });
       // Bu kısım WhatsApp'ı açar
-      window.open(`https://wa.me/${telefon}?text=${encodeURIComponent(mesaj)}`, '_blank');
+      window.open(`https://wa.me/905365853695?text=${encodeURIComponent(mesaj)}`, '_blank');
     } catch (e) {
       // Hata olsa bile müşteriyi WhatsApp'a gönderelim
-      window.open(`https://wa.me/${telefon}?text=${encodeURIComponent(mesaj)}`, '_blank');
+      window.open(`https://wa.me/905365853695?text=${encodeURIComponent(mesaj)}`, '_blank');
     }
   };
   useEffect(() => {
