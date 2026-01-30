@@ -79,7 +79,7 @@ export default function ShopPage() {
       <header className="sticky top-0 z-50 bg-black/90 backdrop-blur-md border-b border-neutral-800 px-6 py-4">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
           <Link href="/" className="flex flex-col text-left">
-            <div className="text-[34px] md:text-[36px] leading-none font-semibold tracking-[0.18em] uppercase text-[#FF5A00]">
+          <div className="text-[30px] md:text-[36px] leading-none font-semibold tracking-[0.12em] uppercase text-[#FF5A00] whitespace-nowrap">
               N U V E
             </div>
             <div className="mt-3 h-[1px] w-24 bg-[#FF5A00]" />

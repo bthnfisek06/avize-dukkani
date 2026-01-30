@@ -26,7 +26,7 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen bg-[#050505] text-white font-sans flex items-center justify-center px-4">
       <div className="max-w-md w-full bg-neutral-900 border border-neutral-800 rounded-2xl p-8">
-        <h1 className="text-3xl font-bold tracking-tight text-center mb-2 text-[#FF5A00]">
+        <h1 className="text-3xl font-bold tracking-tight text-center mb-2 text-[#FF5A00] whitespace-nowrap">
           N U V E
         </h1>
         <p className="text-center text-white/60 text-sm mb-8">Giriş Yap</p>

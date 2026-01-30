@@ -133,7 +133,7 @@ export default function HomePage() {
       window.open(`https://wa.me/905365853695?text=${encodeURIComponent(mesaj)}`, '_blank');
     } catch (e) {
       // Hata olsa bile müşteriyi WhatsApp'a gönderelim
-      window.open(`https://wa.me/905365853695?text=${encodeURIComponent(mesaj)}`, '_blank');
+      
     }
   };
   useEffect(() => {
@@ -231,7 +231,7 @@ export default function HomePage() {
       <div className="bg-black/60 border-b border-neutral-900">
         <div className="max-w-[1400px] mx-auto px-4 py-6 flex items-center justify-between gap-4">
           <div className="flex flex-col text-left">
-            <div className="text-[34px] md:text-[36px] leading-none font-semibold tracking-[0.18em] uppercase text-[#FF5A00]">
+            <div className="text-[28px] md:text-[36px] leading-none font-semibold tracking-[0.18em] uppercase text-[#FF5A00] whitespace-nowrap">
               N U V E
             </div>
             <div className="mt-3 h-[1px] w-24 bg-[#FF5A00]" />
@@ -685,8 +685,8 @@ export default function HomePage() {
               <div className="p-2 md:p-3">
                 <div className="relative overflow-auto max-h-[80vh] rounded-xl bg-black">
                   <img
-                    src={lightbox.src}
-                    alt={lightbox.alt ?? "Görsel"}
+                    src={lightbox?.src ?? ""}
+                    alt={lightbox?.alt ?? "Görsel"}
                     className={[
                       "block mx-auto select-none",
                       lightboxZoom ? "cursor-zoom-out" : "cursor-zoom-in",
